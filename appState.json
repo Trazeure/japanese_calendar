@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "66ed049f-9479-4905-a06e-592df80c2245": {
+        "id": "66ed049f-9479-4905-a06e-592df80c2245",
+        "parent": null,
+        "name": "japanese_calendar.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "japanese_calendar.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "japanesecalendar"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK8f444e33de6447c792cbf4a7318fbb22",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1637972238878
+      }
+    },
+    "openFiles": [
+      "66ed049f-9479-4905-a06e-592df80c2245"
+    ],
+    "currentFileId": "66ed049f-9479-4905-a06e-592df80c2245",
+    "resources": {
+      "alexaSK8f444e33de6447c792cbf4a7318fbb22": {
+        "name": "alexaSK8f444e33de6447c792cbf4a7318fbb22",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.8f444e33-de64-47c7-92cb-f4a7318fbb22",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.5",
+    "projectName": "japanese_calendar",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "japanese_calendar",
+      "url": "https://github.com/Trazeure/japanese_calendar"
+    }
+  }
+}
